@@ -1,0 +1,123 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  background: #0e1129
+  font-family: "Spline Sans", sans-serif
+  overflow: hidden
+
+.main
+  font-size: 16px
+  color: white
+  position: relative
+  padding-left: 120px
+
+.spline
+  height: 100%
+  position: absolute
+  top: 0
+  right: 0
+  z-index: 5
+  @media (max-width: 1800px)
+    z-index: 0
+  @media (max-width: 1024px)
+    transform: scale(0.8) translateX(200px)
+
+  @media (max-width: 800px)
+    transform: scale(0.7) translateX(600px)
+
+  @media (max-width: 600px)
+    transform: scale(0.5) translateX(-100px)
+    right: auto
+    left: 50%
+    margin-left: -600px
+
+  @media (max-width: 375px)
+    transform: scale(0.45) translateX(-50px)
+
+h1
+  position: relative
+  font-size: 70px
+  font-weight: bold
+  width: 460px
+  padding-top: 200px
+
+
+.subTitle
+  margin-top: 100px
+  line-height: 150%
+  width: 380px
+  font-weight: 200
+
+.download
+  height: 49px
+  width: 280px
+  border-radius: 14px
+  background: rgba(33, 49, 127, 0.1)
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
+  backdrop-filter: blur(5px)
+  -webkit-backdrop-filter: blur(5px)
+  border: 1px solid rgba(255, 255, 255, 0.3)
+  margin-top: 80px
+  color: white
+  font-weight: 700
+  cursor: pointer
+  &:hover
+    transition: 0.5s
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.2)
+  div
+    position: relative
+    right: -10px
+    top: -4px
+
+.iconMac
+  position: relative
+  bottom: -6px
+  left: -10px
+
+header
+  width: 775px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  position: relative
+  z-index: 6
+  top: 50px
+  button
+    width: 146px
+    height: 50px
+    border-radius: 14px
+    background: rgba(33, 49, 127, 0.1)
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
+    backdrop-filter: blur(5px)
+    -webkit-backdrop-filter: blur(5px)
+    border: 1px solid rgba(255, 255, 255, 0.3)
+    color: white
+    font-weight: 700
+    cursor: pointer
+    &:hover
+      box-shadow: 0 4px 30px rgba(255, 255, 255, 0.2)
+      transition: 0.5s
+
+header a
+  display: block
+  text-decoration: none
+  color: white
+  padding: 8px 20px
+  border: 1px solid rgba(255, 255, 255,0)
+  transition: 0.7s
+  border-radius: 14px
+
+  &:hover
+    transition: 0.7s
+    border: 1px solid rgba(255, 255, 255,0.2)
+
+.stick
+  position: absolute
+  left: -50px
+  top: 217px
+  height: 500px
+  width: 1px
+  background: linear-gradient(180deg, #08b6f9 0%, #6c56ef 33.56%, #1306dd 65.86%, #aa0eb2 100%)
