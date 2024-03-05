@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/3ddaccord/static/css/main.dabeaf73.css",
-    "main.js": "/3ddaccord/static/js/main.7eaa2fb8.js",
+    "main.css": "/3ddaccord/static/css/main.d1edf98c.css",
+    "main.js": "/3ddaccord/static/js/main.ea481058.js",
     "static/js/208.b0373ceb.chunk.js": "/3ddaccord/static/js/208.b0373ceb.chunk.js",
     "static/js/293.9ade8616.chunk.js": "/3ddaccord/static/js/293.9ade8616.chunk.js",
     "static/js/917.9af727b5.chunk.js": "/3ddaccord/static/js/917.9af727b5.chunk.js",
@@ -11,8 +11,8 @@
     "static/js/453.78f86b36.chunk.js": "/3ddaccord/static/js/453.78f86b36.chunk.js",
     "index.html": "/3ddaccord/index.html",
     "static/media/macIcon.svg": "/3ddaccord/static/media/macIcon.280f18924ab59a11e682d6c007230866.svg",
-    "main.dabeaf73.css.map": "/3ddaccord/static/css/main.dabeaf73.css.map",
-    "main.7eaa2fb8.js.map": "/3ddaccord/static/js/main.7eaa2fb8.js.map",
+    "main.d1edf98c.css.map": "/3ddaccord/static/css/main.d1edf98c.css.map",
+    "main.ea481058.js.map": "/3ddaccord/static/js/main.ea481058.js.map",
     "208.b0373ceb.chunk.js.map": "/3ddaccord/static/js/208.b0373ceb.chunk.js.map",
     "293.9ade8616.chunk.js.map": "/3ddaccord/static/js/293.9ade8616.chunk.js.map",
     "917.9af727b5.chunk.js.map": "/3ddaccord/static/js/917.9af727b5.chunk.js.map",
@@ -22,7 +22,7 @@
     "453.78f86b36.chunk.js.map": "/3ddaccord/static/js/453.78f86b36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dabeaf73.css",
-    "static/js/main.7eaa2fb8.js"
+    "static/css/main.d1edf98c.css",
+    "static/js/main.ea481058.js"
   ]
 }
